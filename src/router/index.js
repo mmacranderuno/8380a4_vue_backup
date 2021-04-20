@@ -62,11 +62,6 @@ export default new Router({
       component: InvestmentCreate
     },
     {
-      path: '/auth',
-      name: 'Auth',
-      component: Auth
-    },
-    {
       path: '/stock-list',
       name: 'StockList',
       component: StockList
@@ -85,6 +80,11 @@ export default new Router({
       path: '/stock-create/:pk',
       name: 'StockUpdate',
       component: StockCreate
+    },
+    {
+      path: '/auth',
+      name: 'Auth',
+      component: Auth
     },
 
   ]
